@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JavaScriptInlämning</title>
+</head>
+
+<body>
+	<p>Welcome! You are guest number:<b id="changeThis">###</b> </p>
+    	<input type="button" onClick="changeText()" value="Change text">
+        
+        <script type="text/javascript">
+		function changeText() 
+		{
+			var guestNumber=prompt("Skriv in ett nummer");
+			
+		if(isNaN(guestNumber))
+		{
+			alert("That's Not A Number!");
+ 		}
+		else
+		{
+			alert("Welcome To The Site!");
+			document.getElementById("changeThis").innerHTML = guestNumber;
+ 		}
+		}
+		</script>
+</body>
+</html>
