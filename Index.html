@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Index</title>
+<link href="index.css" type="text/css" rel="stylesheet"/>
+</head>
+    	<script>
+		function showMenu()
+			{
+				document.getElementById("meny").style.display = "none";			
+						return false;
+			}	
+    	</script>
+<body >
+	<div id="storbox">
+    <div id="overlay">
+	<div class="full-screen">
+  <div>
+    <h1>Fnatic LoL Team</h1>
+    <br>
+    <a class="button-line" onClick="slideLeft()">Continue</a> 
+  </div>
+</div>
+	<script>
+		function slideLeft()
+		{
+			document.getElementById("overlay").style.opacity = "0"
+			document.getElementById("overlay").style.transform = "translate(-2000px)";
+			document.getElementById("meny").style.display = "block"					
+	return false;
+		}
+		
+    </script>
+
+</div>
+	<header>
+		<div id="headertext">Fnatic</div>
+	</header>
+    
+	<nav id="meny">
+		<ul>
+		  <li><a href="#">Home</a></li><li>
+			<a href="Players.html">Players</a>
+				<ul>
+					<li><a href="Soaz.html">Soaz</a></li><li>
+					<a href="Amazing.html">Amazing</a></li><li>
+					<a href="Caps.html">Caps</a></li><li>
+					<a href="Rekkles.html">Rekkles</a></li><li>
+					<a href="Jesiz.html">Jesiz</a></li><li>
+					<a href="Nico.html">Nico</a></li>
+				</ul>
+			</li><li>
+			<a href="https://shop.fnatic.com/" target="_blank">Store</a></li><li>
+			<a href="#">About</a></li><li>
+			<a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+   		<div id="smallbox">
+    		
+    			<article>
+    				<h1>Best Of Fnatic</h1>
+                    <iframe src="https://www.youtube.com/embed/iLwjMJ3MFRM" frameborder="0" allowfullscreen></iframe>
+    			</article>
+            </div>
+    	</div>
+	</div>
+</body>
+</html>
