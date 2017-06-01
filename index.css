@@ -132,11 +132,26 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#storboxPlayers {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	background-image:url(background_worlds.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 #smallbox {
 	background-color:#2E2E2E;
 	width:60%;
 	margin: 0 auto;
 	height:70%;
+	overflow:hidden;
+}
+#smallboxPlayers {
+	background-color:#2E2E2E;
+	width:60%;
+	margin: 0 auto;
+	height:auto;
 	overflow:hidden;
 }
 body{
@@ -230,28 +245,18 @@ h1 {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
-.fixed-square {
-    display: block;
-    width: 200px;
-    height: 200px;
-    background: #4679BD;
-}
-.fixed-size-square span {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    color: #FF8000;
-}
-p.first {
+.first {
 	color: #FF8000;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
 	position: absolute;
-}
-#center-all {
 	width: 100%;
 	height: 100%;
-	align-items: center;
+	margin-top: 80px;
+}
+.first p {
+	color: #FF8000;
+	font-family: hyundai;
 }
 #soaz {
 	background-color: #808080;
@@ -263,15 +268,16 @@ p.first {
 	margin-left: 175px;
 	margin-top: 30px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 2px;
 	border-color: #808080;
+	color: #FF8000;
 }
 
 #soaz:hover {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #FF8000;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 #amazing {
 	background-color: #808080;
@@ -283,7 +289,7 @@ p.first {
 	margin-left: 175px;
 	margin-top: 30px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 2px;
 	border-color: #808080;
 }
 
@@ -291,7 +297,7 @@ p.first {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #FF8000;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 #caps {
 	background-color: #808080;
@@ -303,7 +309,7 @@ p.first {
 	margin-left: 175px;
 	margin-top: 30px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 2px;
 	border-color: #808080;
 }
 
@@ -311,7 +317,7 @@ p.first {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #FF8000;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 #rekkles {
 	background-color: #808080;
@@ -323,7 +329,7 @@ p.first {
 	margin-left: 175px;
 	margin-top: 30px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 2px;
 	border-color: #808080;
 }
 
@@ -331,7 +337,7 @@ p.first {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #FF8000;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 #jesiz {
 	background-color: #808080;
@@ -343,7 +349,7 @@ p.first {
 	margin-left: 175px;
 	margin-top: 30px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 2px;
 	border-color: #808080;
 }
 
@@ -351,7 +357,7 @@ p.first {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #FF8000;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 #nico {
 	background-color: #808080;
@@ -362,8 +368,9 @@ p.first {
 	align-self: center;
 	margin-left: 175px;
 	margin-top: 30px;
+	margin-bottom: 10px;
 	border-style: solid;
-	border-radius: 5px;
+	border-radius: 2px;
 	border-color: #808080;
 
 }
@@ -372,75 +379,7 @@ p.first {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #FF8000;
-	border-radius: 5px;
-}
-#soazPhoto {
-	background-image:url(soaz.jpg);
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	background-position:right;
-	width:40%;
-	height:100%;
-	background-color:#03F;
-	float:left;
-}
-#amazingPhoto {
-	background-image:url(amazing.jpg);
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	background-position:right;
-	width:40%;
-	height:100%;
-	background-color:#03F;
-	float:left;
-}
-#capsPhoto {
-	background-image:url(caps.jpg);
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	background-position:right;
-	width:40%;
-	height:100%;
-	background-color:#03F;
-	float:left;
-}
-#rekklesPhoto {
-	background-image:url(rekkles.jpg);
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	background-position:right;
-	width:40%;
-	height:100%;
-	background-color:#03F;
-	float:left;
-}
-#jesizPhoto {
-	background-image:url(jesiz.jpg);
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	background-position:right;
-	width:40%;
-	height:100%;
-	background-color:#03F;
-	float:left;
-}
-#nicoPhoto {
-	background-image:url(nico.jpg);
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	background-position:right;
-	width:40%;
-	height:100%;
-	background-color:#03F;
-	float:left;
-}
-.playerText {
-	background-color:#0C3;
-	float:right;
-	width:60%;
-	height:100%;
-	z-index:9999;
-	float:right;
+	border-radius: 2px;
 }
 h2 {
 	font-family: hyundai;
@@ -453,15 +392,50 @@ h2 {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
+h4 {
+	font-family: hyundai;
+	font-weight: bold;
+	color: #FF8000;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
 p {
 	color: #FFF;
 }
 span {
 	display: block;
-	height: 20px;
+	height: 100px;
 }
-
-
+.playerText {
+	font-family: sans-serif;
+	font-size: 32px;
+	color: white;
+	text-align: center;
+}
+#smallboxContact {
+	background-color:#2E2E2E;
+	width:60%;
+	margin: 0 auto;
+	height:70%;
+	overflow:hidden;
+	font-family: monospace;
+	font-size: 24px;
+	text-align: center;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:active {
+	color: white;
+}
+a:hover {
+	color: white;
+}
 @media screen and (max-width: 1800px) {
 	div#headertext
 	{
@@ -501,6 +475,32 @@ span {
 		color:#FFF;
 		margin-top:30px;
 		font-size:20px;
+	}
+	#soaz {
+		width: 700px;
+		margin-left: 155px;
+		font-size: 35px;
+	}
+	#amazing {
+		width: 700px;
+		margin-left: 155px;
+	}
+	#caps {
+		width: 700px;
+		margin-left: 155px;
+	}
+	#rekkles {
+		width: 700px;
+		margin-left: 155px;
+	}
+	#jesiz {
+		width: 700px;
+		margin-left: 155px;
+	}
+	#nico {
+		width: 700px;
+		margin-left: 155px;
+		margin-bottom: 10px;
 	}
 }
 @media screen and (max-width: 1500px) {
@@ -543,6 +543,32 @@ span {
 		margin-top:30px;
 		font-size:20px;
 	}
+	#soaz {
+		width: 600px;
+		margin-left: 130px;
+	}
+	#amazing {
+		width: 600px;
+		margin-left: 130px;
+	}
+	#caps {
+		width: 600px;
+		margin-left: 130px;
+	}
+	#rekkles {
+		width: 600px;
+		margin-left: 130px;
+	}
+	#jesiz {
+		width: 600px;
+		margin-left: 130px;
+	}
+	#nico {
+		width: 600px;
+		margin-left: 130px;
+		margin-bottom: 10px;
+	}
+
 }
 @media screen and (max-width: 1200px) {
 	div#headertext
@@ -583,6 +609,31 @@ span {
 		color:#FFF;
 		margin-top:30px;
 		font-size:20px;
+	}
+	#soaz {
+		width: 500px;
+		margin-left: 100px;
+	}
+	#amazing {
+		width: 500px;
+		margin-left: 100px;
+	}
+	#caps {
+		width: 500px;
+		margin-left: 100px;
+	}
+	#rekkles {
+		width: 500px;
+		margin-left: 100px;
+	}
+	#jesiz {
+		width: 500px;
+		margin-left: 100px;
+	}
+	#nico {
+		width: 500px;
+		margin-left: 100px;
+		margin-bottom: 10px;
 	}
 
 }
@@ -626,7 +677,31 @@ span {
 		margin-top:30px;
 		font-size:20px;
 	}
-
+	#soaz {
+		width: 400px;
+		margin-left: 90px;
+	}
+	#amazing {
+		width: 400px;
+		margin-left: 90px;
+	}
+	#caps {
+		width: 400px;
+		margin-left: 90px;
+	}
+	#rekkles {
+		width: 400px;
+		margin-left: 90px;
+	}
+	#jesiz {
+		width: 400px;
+		margin-left: 90px;
+	}
+	#nico {
+		width: 400px;
+		margin-left: 90px;
+		margin-bottom: 10px;
+	}
 }
 
 
@@ -647,6 +722,14 @@ span {
 		font-weight:bold;
 	}
 	div#smallbox {
+		width:100%;
+		height:100%;
+	}
+	div#smallboxPlayers {
+		width:100%;
+		height:100%;
+	}
+	div#smallboxContact {
 		width:100%;
 		height:100%;
 	}
@@ -673,7 +756,31 @@ span {
 		margin-top:30px;
 		font-size:20px;
 	}
-
+	#soaz {
+		width: 600px;
+		margin-left: 80px;
+	}
+	#amazing {
+		width: 600px;
+		margin-left: 80px;
+	}
+	#caps {
+		width: 600px;
+		margin-left: 80px;
+	}
+	#rekkles {
+		width: 600px;
+		margin-left: 80px;
+	}
+	#jesiz {
+		width: 600px;
+		margin-left: 80px;
+	}
+	#nico {
+		width: 600px;
+		margin-left: 80px;
+		margin-bottom: 10px;
+	}
 }
 @media screen and (max-width: 500px) {
 	div#headertext
@@ -691,6 +798,14 @@ span {
 		font-weight:bold;
 	}
 	div#smallbox {
+		width:100%;
+		height:100%;
+	}
+	div#smallboxPlayers {
+		width: 100%;
+		height: 100%;
+	}
+	div#smallboxContact {
 		width:100%;
 		height:100%;
 	}
@@ -716,7 +831,31 @@ span {
 		color:#FFF;
 		margin-top:30px;
 	}
-
+	#soaz {
+		width: 300px;
+		margin-left: 85px;
+	}
+	#amazing {
+		width: 300px;
+		margin-left: 85px;
+	}
+	#caps {
+		width: 300px;
+		margin-left: 85px;
+	}
+	#rekkles {
+		width: 300px;
+		margin-left: 85px;
+	}
+	#jesiz {
+		width: 300px;
+		margin-left: 85px;
+	}
+	#nico {
+		width: 300px;
+		margin-left: 85px;
+		margin-bottom: 10px;
+	}
 }
 @media screen and (max-width: 400px) {
 		div#headertext
@@ -734,6 +873,14 @@ span {
 			font-weight:bold;
 		}
 		div#smallbox {
+			width:100%;
+			height:100%;
+		}
+		div#smallboxPlayers {
+			width: 100%;
+			height: 100%;
+		}
+		div#smallboxContact {
 			width:100%;
 			height:100%;
 		}
@@ -759,5 +906,29 @@ span {
 			color:#FFF;
 			margin-top:30px;
 		}
-
+		#soaz {
+			width: 200px;
+			margin-left: 85px;
+		}
+		#amazing {
+			width: 200px;
+			margin-left: 85px;
+		}
+		#caps {
+			width: 200px;
+			margin-left: 85px;
+		}
+		#rekkles {
+			width: 200px;
+			margin-left: 85px;
+		}
+		#jesiz {
+			width: 200px;
+			margin-left: 85px;
+		}
+		#nico {
+			width: 200px;
+			margin-left: 85px;
+			margin-bottom: 10px;
+		}
 	}
