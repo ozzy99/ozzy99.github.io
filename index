@@ -43,7 +43,7 @@
 
 	<nav id="meny">
 		<ul>
-		  <li><a href="Index.html">Home</a></li><li>
+		  <li><a href="#">Home</a></li><li>
 			<a href="Players.html">Players</a>
 				<ul>
 					<li><a href="Soaz.html">Soaz</a></li><li>
@@ -55,7 +55,7 @@
 				</ul>
 			</li><li>
 			<a href="https://shop.fnatic.com/" target="_blank">Store</a></li><li>
-			<a href="#">Contact</a></li>
+			<a href="#">Awards</a></li>
 		</ul>
 	</nav>
 
