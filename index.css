@@ -7,6 +7,9 @@
 *{
 	margin:0;
 }
+body {
+	background-color: #2E2E2E;
+}
 
 #overlay {
 	position:absolute;
@@ -406,7 +409,11 @@ p {
 }
 span {
 	display: block;
-	height: 100px;
+	height: 20px;
+}
+.bigSpace {
+	display: block;
+	height: 145px;
 }
 .playerText {
 	font-family: sans-serif;
